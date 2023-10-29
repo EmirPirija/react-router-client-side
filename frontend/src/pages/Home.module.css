@@ -1,0 +1,55 @@
+/* Animation keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.homepageContainer {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 1s;
+}
+
+/* Title styling */
+.homepageTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Description styling */
+.homepageDescription {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* Keyframes for text animation */
+@keyframes textAnimation {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.homepageTitle,
+.homepageDescription {
+  animation: textAnimation 0.5s ease-out 0.5s forwards; /* Apply the text animation */
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  transform-origin: center bottom;
+  opacity: 0;
+}
