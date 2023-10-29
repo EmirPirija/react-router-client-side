@@ -4,14 +4,14 @@ This GitHub repository contains a React application that leverages the react-rou
 
 ## Pages and Components:
 
-RootLayout: The root layout component that wraps the entire application.
-HomePage: The home page component.
-EventsRootLayout: Layout for managing events-related pages.
-EventsPage: Lists events and offers event-related actions.
-EventDetailPage: Displays detailed information about a specific event.
-EditEventPage: Allows editing event details.
-NewEventPage: Facilitates the creation of new events.
-NewsletterPage: A page dedicated to newsletters.
+- RootLayout: The root layout component that wraps the entire application.
+- HomePage: The home page component.
+- EventsRootLayout: Layout for managing events-related pages.
+- EventsPage: Lists events and offers event-related actions.
+- EventDetailPage: Displays detailed information about a specific event.
+- ditEventPage: Allows editing event details.
+- NewEventPage: Facilitates the creation of new events.
+- NewsletterPage: A page dedicated to newsletters.
 
 
 ## Routing Configuration:
