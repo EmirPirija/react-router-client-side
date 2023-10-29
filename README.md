@@ -32,3 +32,5 @@ eventsLoader and eventDetailLoader are responsible for loading event data.
 ## Error Handling:
 
 The application includes an error page component (ErrorPage) for handling unexpected errors or invalid routes.
+
+<img width="1440" alt="Screen Shot 2023-10-29 at 6 24 45 PM" src="https://github.com/EmirPirija/react-router-client-side/assets/118456820/5c5ab4f9-e78d-4c5b-8881-e64e0bf9a115">
